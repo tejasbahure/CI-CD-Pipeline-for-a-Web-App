@@ -1,0 +1,18 @@
+{
+  "name": "devops-cicd-node",
+  "version": "1.0.0",
+  "description": "Node.js Express app with CI/CD (GitHub Actions) -> Docker -> GHCR -> EC2 SSH deploy",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
