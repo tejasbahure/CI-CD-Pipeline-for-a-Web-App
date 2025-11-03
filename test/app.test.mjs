@@ -5,6 +5,6 @@ describe('GET /', () => {
   it('responds with OK', async () => {
     const res = await request(app).get('/');
     expect(res.statusCode).toBe(200);
-    expect(res.text).toBe('OK');
+    expect(res.text).toBe('Deployed successfully via CI/CD on AWS EC2 🚀');
   });
 });
