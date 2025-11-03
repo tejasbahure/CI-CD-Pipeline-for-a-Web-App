@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('OK');
+  res.send('Deployed successfully via CI/CD on AWS EC2 🚀');
 });
 
 if (process.env.NODE_ENV !== 'test') {
